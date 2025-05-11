@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App de Salud</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <button id="button-upp" onclick="showTab('upp')">🩺 UPP</button>
+      <button id="button-nutricion" onclick="showTab('nutricion')">🍽 Nutrición</button>
+      <button id="button-hidratacion" onclick="showTab('hidratacion')">💧 Hidratación</button>
+      <button id="button-eliminacion" onclick="showTab('eliminacion')">🚽 Eliminación</button>
+      <button id="button-ejercicio" onclick="showTab('ejercicio')">🏃 Ejercicio</button>
+      <button id="button-farmacos" onclick="showTab('farmacos')">💊 Medicación</button>
+    </nav>
+    <main class="content">
+      <!-- contenido omitido por brevedad -->
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
